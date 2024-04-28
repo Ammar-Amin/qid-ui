@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
     return (
-        <div className='w-full bg-black mt-[400px] md:pb-[100px]'>
+        <div className='w-full bg-black md:pb-[100px]'>
             {/* main footer  */}
             <div className='p-6 flex flex-col md:flex-row md:items-center md:mx-[90px] md:border-b-[1px] md:border-slate-600 lg:mx-[180px]'>
                 <h1 className='text-5xl lg:text-6xl mb-10 md:flex-1 font-bold italic text-slate-300'>qid</h1>
