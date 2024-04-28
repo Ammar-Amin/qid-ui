@@ -5,7 +5,7 @@ function Header() {
     let [menuToggle, setMenuToggle] = useState(false)
     return (
         <div>
-            <div className='w-full fixed top-0 z-50 py-6 px-8 md:px-[90px] bg-black flex justify-between items-center'>
+            <div className='w-full fixed top-0 z-50 py-6 px-8 md:px-[90px] bg-black flex justify-between items-center shadow-2xl'>
                 <Link to='/' className='text-slate-300 italic text-3xl md:text-4xl font-bold hover:text-white'>qid</Link>
                 <i class="ri-menu-line md:hidden px-1 text-slate-600 text-2xl hover:bg-slate-800"
                     onClick={() => setMenuToggle(!menuToggle)}
