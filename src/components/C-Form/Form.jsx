@@ -37,14 +37,14 @@ function Form() {
                         <span className='bg-gradient-to-r from-yellow-200 to-orange-500 text-transparent bg-clip-text'> one click.</span>
                     </h1>
                     <div className='my-4 text-xl font-medium flex flex-col gap-3 md:flex-row lg:text-2xl'>
-                        <div className='w-1/3 p-4 lg:m-5 bg-gradient-to-tr to-[#292929] from-[#000] border-2 border-slate-800 rounded-3xl'>
+                        <div className='md:w-1/3 p-4 lg:m-5 bg-gradient-to-tr to-[#292929] from-[#000] border-2 border-slate-800 rounded-3xl'>
                             Your guests upload photos of their Passport and Visa.
                         </div>
-                        <div className='w-1/3 p-4 lg:m-5 bg-gradient-to-tr to-[#292929] from-[#000]  border-2 border-slate-800 rounded-3xl'>
+                        <div className='md:w-1/3 p-4 lg:m-5 bg-gradient-to-tr to-[#292929] from-[#000]  border-2 border-slate-800 rounded-3xl'>
                             Qid's AI engine extracts details like
                             Passport Number, Visa Number, Name, Country, and Photos from the images
                         </div>
-                        <div className='w-1/3 p-4 lg:m-5 bg-gradient-to-tr to-[#292929] from-[#000]  border-2 border-slate-800 rounded-3xl'>
+                        <div className='md:w-1/3 p-4 lg:m-5 bg-gradient-to-tr to-[#292929] from-[#000]  border-2 border-slate-800 rounded-3xl'>
                             Go to the C-Form website
                             Open the qid C-Form Pro Chrome plugin.
                             Select the guest. Done!

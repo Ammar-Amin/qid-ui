@@ -13,12 +13,10 @@ export default function Page2() {
                             <p className='text-[40px] leading-10 text-white font-bold text-wrap md:w-[350px] md:text-left md:text-5xl lg:w-[500px] lg:text-7xl'>
                                 <span className='bg-gradient-to-r from-[#ffca67] to-orange-500 text-transparent bg-clip-text'>Secure</span>, easy, and always with you.</p>
                             <div >
-                                <Link target='_blank' to='/app'>
-                                    <button className='mt-6 px-8 py-[10px] font-bold bg-slate-50 hover:bg-black hover:text-white border-none outline-none rounded-3xl md:mx-auto lg:px-10 lg:py-3 lg:text-xl'>
-                                        Create free account
-                                        <i class="ri-arrow-right-s-line ml-2 rounded-full text-white bg-slate-800"></i>
-                                    </button>
-                                </Link>
+                                <button className='mt-6 px-8 py-[10px] font-bold bg-slate-50 hover:bg-black hover:text-white border-none outline-none rounded-3xl md:mx-auto lg:px-10 lg:py-3 lg:text-xl'>
+                                    Create free account
+                                    <i class="ri-arrow-right-s-line ml-2 rounded-full text-white bg-slate-800"></i>
+                                </button>
                             </div>
                         </div>
                         {/* img and two boxes  */}
@@ -58,7 +56,7 @@ export default function Page2() {
                         <h1 className='my-3 text-2xl leading-6 text-[#d4d3d3] font-semibold text-wrap md:text-4xl md:w-[300px] md:font-bold lg:text-6xl'>
                             Two Base elements of Identity ecosystem </h1>
                         {/* First row section */}
-                        <div className='flex'>
+                        <div className='flex gap-2'>
                             <div className='flex flex-col items-center gap-4'>
                                 <div className='h-[60%] md:h-1/6 w-[5px] bg-gradient-to-b from-transparent via-[#51ff00] to-orange-400 md:to-green-400'></div>
                                 <div className='hidden w-5 h-[1px] bg-slate-400 md:block'></div>
@@ -86,7 +84,7 @@ export default function Page2() {
                                             your identity with ease,</h4>
                                         <h4 className='leading-8 lg:leading-10'>
                                             qid has got you covered!</h4>
-                                        <p className='py-4 text-[15px] font-semibold text-[#747373] md:text-xl'>
+                                        <p className='py-4 text-[15px] leading-6 font-semibold text-[#747373] md:text-xl'>
                                             Sharing IDs with qid is simple and convenient. Just add the ID to your qid profile and share it with anyone, anytime, anywhere. No need to carry physical IDs or worry about losing them.
                                         </p>
                                     </div>

@@ -28,7 +28,7 @@ function Header() {
             {/* burger toggle btns  */}
             {
                 menuToggle ?
-                    <div className='w-full absolute top-[-1px] flex flex-col mt-[85px] text-white'>
+                    <div className='w-full fixed top-[-1px] flex flex-col mt-[85px] text-white'>
                         <Link to='/app'
                             className='px-5 py-2 bg-[#1E1A12] hover:bg-[#1e1e1e] text-white text-[14px] font-medium border-b-[1px] border-black'
                             onClick={() => setMenuToggle(!menuToggle)}>App</Link>
