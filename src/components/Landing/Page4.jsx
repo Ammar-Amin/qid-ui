@@ -69,7 +69,7 @@ export default function Page4() {
                 </div>
                 {/* Account Btn  */}
                 <div className='my-3 grid place-items-center'>
-                    <button className='mt-6 px-8 py-[10px] font-bold bg-white border-none outline-none rounded-3xl md:mx-auto lg:px-10 lg:py-3 lg:text-xl'>
+                    <button className='mt-6 px-8 py-[10px] font-bold bg-slate-50 hover:bg-black hover:text-white border-none outline-none rounded-3xl md:mx-auto lg:px-10 lg:py-3 lg:text-xl'>
                         Create Business Account
                         <i class="ri-arrow-right-s-line ml-2 rounded-full text-white bg-slate-800"></i>
                     </button>

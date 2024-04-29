@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Page1() {
     return (
@@ -7,7 +8,11 @@ export default function Page1() {
                 <div className='mt-6 px-8 md:px-[50px] md:mt-0 lg:px-[200px]'>
                     <p className='text-[40px] leading-10 text-white font-bold text-wrap md:text-center md:text-5xl lg:text-7xl'>ever person deserves to know and be known by their true identity</p>
                     <div className='md:flex md:justify-center'>
-                        <button className='mt-6 px-8 py-[10px] font-bold bg-white border-none outline-none rounded-3xl md:mx-auto lg:px-10 lg:py-3 lg:text-xl'>Download qid</button>
+                        <Link target='_blank' to='/app'>
+                            <button className='mt-6 px-8 py-[10px] font-bold bg-slate-50 hover:bg-black hover:text-white border-none outline-none rounded-3xl md:mx-auto lg:px-10 lg:py-3 lg:text-xl'>
+                                Download qid
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

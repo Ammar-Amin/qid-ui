@@ -11,10 +11,10 @@ function Form() {
                     <h2 className='my-3 text-2xl leading-7 font-medium text-gray-300 md:text-3xl'>Say Goodbye to Manual C-Forms</h2>
                     <div className='my-6 font-bold flex flex-col gap-3 md:flex-row'>
                         <div>
-                            <button className='px-3 py-2 bg-slate-50 text-black rounded-3xl lg:text-xl lg:font-medium hover:bg-black hover:text-white'>Book a demo</button>
+                            <button className='px-3 py-2 bg-slate-50 text-black rounded-3xl lg:font-medium hover:bg-black hover:text-white'>Book a demo</button>
                         </div>
                         <div>
-                            <button className='px-3 py-2 bg-black border-[1px] border-slate-800 rounded-3xl lg:text-xl lg:font-medium hover:bg-white hover:text-black'>
+                            <button className='px-3 py-2 bg-black border-[1px] border-slate-800 rounded-3xl lg:font-medium hover:bg-white hover:text-black'>
                                 <i class="ri-chrome-fill font-extralight text-lg mr-2"></i>
                                 Get chrome Extension
                             </button>
@@ -37,14 +37,14 @@ function Form() {
                         <span className='bg-gradient-to-r from-yellow-200 to-orange-500 text-transparent bg-clip-text'> one click.</span>
                     </h1>
                     <div className='my-4 text-xl font-medium flex flex-col gap-3 md:flex-row lg:text-2xl'>
-                        <div className='p-4 bg-gradient-to-tr to-[#292929] from-[#000] border-2 border-slate-800 rounded-3xl'>
+                        <div className='w-1/3 p-4 lg:m-5 bg-gradient-to-tr to-[#292929] from-[#000] border-2 border-slate-800 rounded-3xl'>
                             Your guests upload photos of their Passport and Visa.
                         </div>
-                        <div className='p-4 bg-gradient-to-tr to-[#292929] from-[#000]  border-2 border-slate-800 rounded-3xl'>
+                        <div className='w-1/3 p-4 lg:m-5 bg-gradient-to-tr to-[#292929] from-[#000]  border-2 border-slate-800 rounded-3xl'>
                             Qid's AI engine extracts details like
                             Passport Number, Visa Number, Name, Country, and Photos from the images
                         </div>
-                        <div className='p-4 bg-gradient-to-tr to-[#292929] from-[#000]  border-2 border-slate-800 rounded-3xl'>
+                        <div className='w-1/3 p-4 lg:m-5 bg-gradient-to-tr to-[#292929] from-[#000]  border-2 border-slate-800 rounded-3xl'>
                             Go to the C-Form website
                             Open the qid C-Form Pro Chrome plugin.
                             Select the guest. Done!
