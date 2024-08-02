@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Page1 from './Page1'
 import Page3 from './Page3'
 import Page4 from './Page4'
 import Page2 from './Page2'
 
 function Home() {
+    useEffect(() => {
+        window.scroll({
+            top: 0,
+            left: 0,
+            behavior: 'instant'
+        })
+    }, [])
     return (
         <div>
             {/* 1st page  */}

@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../../index.css'
 
 function Form() {
+    useEffect(() => {
+        window.scroll({
+            top: 0,
+            left: 0,
+            behavior: 'instant'
+        })
+    }, [])
     return (
         <div className='bg-[url("https://oneqid.com/wp-content/uploads/2023/09/grid-for-video.png")] bg-contain border-[1px] border-slate-600'>
             <div className='pt-32 px-2 text-white bg-black/70 pb-16'>
@@ -15,7 +22,7 @@ function Form() {
                         </div>
                         <div>
                             <button className='px-3 py-2 bg-black border-[1px] border-slate-800 rounded-3xl lg:font-medium hover:bg-white hover:text-black'>
-                                <i class="ri-chrome-fill font-extralight text-lg mr-2"></i>
+                                <i className="ri-chrome-fill font-extralight text-lg mr-2"></i>
                                 Get chrome Extension
                             </button>
                         </div>
@@ -24,11 +31,11 @@ function Form() {
                 </div>
                 {/* img 1 Moblie  */}
                 <div className='md:hidden'>
-                    <img decoding="async" width="2024" height="3393" src="https://oneqid.com/wp-content/uploads/2023/08/c-form-long.png" class="attachment-full size-full wp-image-992" alt="" srcset="https://oneqid.com/wp-content/uploads/2023/08/c-form-long.png 2024w, https://oneqid.com/wp-content/uploads/2023/08/c-form-long-179x300.png 179w, https://oneqid.com/wp-content/uploads/2023/08/c-form-long-611x1024.png 611w, https://oneqid.com/wp-content/uploads/2023/08/c-form-long-768x1287.png 768w, https://oneqid.com/wp-content/uploads/2023/08/c-form-long-916x1536.png 916w, https://oneqid.com/wp-content/uploads/2023/08/c-form-long-1222x2048.png 1222w" sizes="(max-width: 2024px) 100vw, 2024px" />
+                    <img decoding="async" width="2024" height="3393" src="https://oneqid.com/wp-content/uploads/2023/08/c-form-long.png" className="attachment-full size-full wp-image-992" alt="" srcSet="https://oneqid.com/wp-content/uploads/2023/08/c-form-long.png 2024w, https://oneqid.com/wp-content/uploads/2023/08/c-form-long-179x300.png 179w, https://oneqid.com/wp-content/uploads/2023/08/c-form-long-611x1024.png 611w, https://oneqid.com/wp-content/uploads/2023/08/c-form-long-768x1287.png 768w, https://oneqid.com/wp-content/uploads/2023/08/c-form-long-916x1536.png 916w, https://oneqid.com/wp-content/uploads/2023/08/c-form-long-1222x2048.png 1222w" sizes="(max-width: 2024px) 100vw, 2024px" />
                 </div>
                 {/* img 1 PC */}
                 <div className='hidden md:block md:pl-9'>
-                    <img fetchpriority="high" decoding="async" width="4048" height="2138" src="https://oneqid.com/wp-content/uploads/2023/07/Asset-4.png" class="attachment-full size-full wp-image-895" alt="" srcSet="https://oneqid.com/wp-content/uploads/2023/07/Asset-4.png 4048w, https://oneqid.com/wp-content/uploads/2023/07/Asset-4-300x158.png 300w, https://oneqid.com/wp-content/uploads/2023/07/Asset-4-1024x541.png 1024w, https://oneqid.com/wp-content/uploads/2023/07/Asset-4-768x406.png 768w, https://oneqid.com/wp-content/uploads/2023/07/Asset-4-1536x811.png 1536w, https://oneqid.com/wp-content/uploads/2023/07/Asset-4-2048x1082.png 2048w" sizes="(max-width: 4048px) 100vw, 4048px"></img>
+                    <img fetchpriority="high" decoding="async" width="4048" height="2138" src="https://oneqid.com/wp-content/uploads/2023/07/Asset-4.png" className="attachment-full size-full wp-image-895" alt="" srcSet="https://oneqid.com/wp-content/uploads/2023/07/Asset-4.png 4048w, https://oneqid.com/wp-content/uploads/2023/07/Asset-4-300x158.png 300w, https://oneqid.com/wp-content/uploads/2023/07/Asset-4-1024x541.png 1024w, https://oneqid.com/wp-content/uploads/2023/07/Asset-4-768x406.png 768w, https://oneqid.com/wp-content/uploads/2023/07/Asset-4-1536x811.png 1536w, https://oneqid.com/wp-content/uploads/2023/07/Asset-4-2048x1082.png 2048w" sizes="(max-width: 4048px) 100vw, 4048px"></img>
                 </div>
                 {/* Section 2  */}
                 <div className='p-4 md:mx-[50px] lg:mx-[100px] xl:mx[130px]'>
@@ -59,17 +66,17 @@ function Form() {
                     {/* img 2 PC version */}
                     <div className='w-[80%] mx-auto md:w-[40%]'>
                         <div className='hidden md:block'>
-                            <div class="tilting-card-wrapper">
-                                <div class="mouse-position-tracker"></div>
-                                <div class="mouse-position-tracker"></div>
-                                <div class="mouse-position-tracker"></div>
-                                <div class="mouse-position-tracker"></div>
-                                <div class="mouse-position-tracker"></div>
-                                <div class="mouse-position-tracker"></div>
-                                <div class="mouse-position-tracker"></div>
-                                <div class="mouse-position-tracker"></div>
-                                <div class="mouse-position-tracker"></div>
-                                <div class="tilting-card-body">
+                            <div className="tilting-card-wrapper">
+                                <div className="mouse-position-tracker"></div>
+                                <div className="mouse-position-tracker"></div>
+                                <div className="mouse-position-tracker"></div>
+                                <div className="mouse-position-tracker"></div>
+                                <div className="mouse-position-tracker"></div>
+                                <div className="mouse-position-tracker"></div>
+                                <div className="mouse-position-tracker"></div>
+                                <div className="mouse-position-tracker"></div>
+                                <div className="mouse-position-tracker"></div>
+                                <div className="tilting-card-body">
                                 </div>
                             </div>
                         </div>
@@ -81,7 +88,7 @@ function Form() {
                         <h1 className='text-2xl font-medium md:text-4xl lg:text-5xl'>Elevate C-Form Processing with qid's State-of-the-Art Chrome Extension</h1>
                         <h2 className='my-4 text-[18px] text-slate-300 md:text-xl lg:text-2xl'>Simplify C-Form management like never before with qid’s revolutionary Chrome extension.</h2>
                         <button className='px-3 py-2 bg-slate-50 text-black hover:bg-black hover:text-white rounded-3xl lg:text-xl'>
-                            <i class="ri-chrome-fill font-extralight text-lg mr-2"></i>
+                            <i className="ri-chrome-fill font-extralight text-lg mr-2"></i>
                             Get chrome Extension
                         </button>
                     </div>

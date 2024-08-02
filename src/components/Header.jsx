@@ -9,10 +9,10 @@ function Header() {
                 <Link to='/' className='text-slate-300 italic text-3xl md:text-4xl xl:text-5xl font-bold hover:text-white'>qid</Link>
                 {
                     menuToggle
-                        ? <i class="ri-close-line md:hidden px-1 text-slate-600 text-3xl hover:bg-slate-800"
+                        ? <i className="ri-close-line md:hidden px-1 text-slate-600 text-3xl hover:bg-slate-800"
                             onClick={() => setMenuToggle(!menuToggle)}
                         ></i>
-                        : <i class="ri-menu-line md:hidden px-1 text-slate-600 text-3xl hover:bg-slate-800"
+                        : <i className="ri-menu-line md:hidden px-1 text-slate-600 text-3xl hover:bg-slate-800"
                             onClick={() => setMenuToggle(!menuToggle)}
                         ></i>
                 }

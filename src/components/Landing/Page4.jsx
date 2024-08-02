@@ -32,8 +32,7 @@ export default function Page4() {
                 {/* 5 containers  */}
                 <div className='w-[80%] mx-auto pt-10 flex flex-col gap-4 flex-wrap md:flex-row md:w-[90%] lg:w-[80%]'>
                     <div className='md:w-[24%] p-4 bg-gradient-to-r to-[#09090978] from-[#212121D6] border-2 border-slate-800 rounded-3xl'>
-                        <img decoding="async" width="800" height="800" src="https://oneqid.com/wp-content/uploads/2023/04/qr-code-12-1024x1024.png" class="attachment-large size-large wp-image-162" alt="" srcSet="https://oneqid.com/wp-content/uploads/2023/04/qr-code-12-1024x1024.png 1024w, https://oneqid.com/wp-content/uploads/2023/04/qr-code-12-300x300.png 300w, https://oneqid.com/wp-content/uploads/2023/04/qr-code-12-150x150.png 150w, https://oneqid.com/wp-content/uploads/2023/04/qr-code-12-768x768.png 768w, https://oneqid.com/wp-content/uploads/2023/04/qr-code-12.png 1147w" sizes="(max-width: 800px) 100vw, 800px"
-                            className='rounded-2xl'
+                        <img decoding="async" width="800" height="800" src="https://oneqid.com/wp-content/uploads/2023/04/qr-code-12-1024x1024.png" className="rounded-2xl attachment-large size-large wp-image-162" alt="" srcSet="https://oneqid.com/wp-content/uploads/2023/04/qr-code-12-1024x1024.png 1024w, https://oneqid.com/wp-content/uploads/2023/04/qr-code-12-300x300.png 300w, https://oneqid.com/wp-content/uploads/2023/04/qr-code-12-150x150.png 150w, https://oneqid.com/wp-content/uploads/2023/04/qr-code-12-768x768.png 768w, https://oneqid.com/wp-content/uploads/2023/04/qr-code-12.png 1147w" sizes="(max-width: 800px) 100vw, 800px"
                         ></img>
                         <h1 className='my-3 text-white font-semibold text-xl md:text-2xl lg:text-3xl'>Collect IDs with QR</h1>
                         <p className='mt-[-10px] text-slate-400 lg:text-xl'>Easy to setup QR code stand</p>
@@ -41,8 +40,7 @@ export default function Page4() {
 
                     <div className='md:w-[65%] p-4 bg-gradient-to-r to-[#09090978] from-[#212121D6] border-2 border-slate-800 rounded-3xl'>
                         <h1 className='text-white font-semibold text-xl md:text-2xl lg:text-3xl'>Business Analytics</h1>
-                        <img loading="lazy" decoding="async" width="2048" height="650" src="https://oneqid.com/wp-content/uploads/2023/05/Asset-7.png" class="attachment-full size-full wp-image-411" alt="" srcset="https://oneqid.com/wp-content/uploads/2023/05/Asset-7.png 2048w, https://oneqid.com/wp-content/uploads/2023/05/Asset-7-300x95.png 300w, https://oneqid.com/wp-content/uploads/2023/05/Asset-7-1024x325.png 1024w, https://oneqid.com/wp-content/uploads/2023/05/Asset-7-768x244.png 768w, https://oneqid.com/wp-content/uploads/2023/05/Asset-7-1536x488.png 1536w" sizes="(max-width: 2048px) 100vw, 2048px"
-                            className='my-3'
+                        <img loading="lazy" decoding="async" width="2048" height="650" src="https://oneqid.com/wp-content/uploads/2023/05/Asset-7.png" className="my-3 attachment-full size-full wp-image-411" alt="" srcSet="https://oneqid.com/wp-content/uploads/2023/05/Asset-7.png 2048w, https://oneqid.com/wp-content/uploads/2023/05/Asset-7-300x95.png 300w, https://oneqid.com/wp-content/uploads/2023/05/Asset-7-1024x325.png 1024w, https://oneqid.com/wp-content/uploads/2023/05/Asset-7-768x244.png 768w, https://oneqid.com/wp-content/uploads/2023/05/Asset-7-1536x488.png 1536w" sizes="(max-width: 2048px) 100vw, 2048px"
                         />
                         <p className='mt-[-10px] text-slate-400 lg:text-xl'>
                             Unlock the power of data with qid – your ultimate tool for comprehensive business analytics.
@@ -71,7 +69,7 @@ export default function Page4() {
                 <div className='my-3 grid place-items-center'>
                     <button className='mt-6 px-8 py-[10px] font-bold bg-slate-50 hover:bg-black hover:text-white border-none outline-none rounded-3xl md:mx-auto lg:px-10 lg:py-3 lg:text-xl'>
                         Create Business Account
-                        <i class="ri-arrow-right-s-line ml-2 rounded-full text-white bg-slate-800"></i>
+                        <i className="ri-arrow-right-s-line ml-2 rounded-full text-white bg-slate-800"></i>
                     </button>
                 </div>
                 {/* heading & subheading */}

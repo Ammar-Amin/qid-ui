@@ -15,7 +15,7 @@ export default function Page2() {
                             <div >
                                 <button className='mt-6 px-8 py-[10px] font-bold bg-slate-50 hover:bg-black hover:text-white border-none outline-none rounded-3xl md:mx-auto lg:px-10 lg:py-3 lg:text-xl'>
                                     Create free account
-                                    <i class="ri-arrow-right-s-line ml-2 rounded-full text-white bg-slate-800"></i>
+                                    <i className="ri-arrow-right-s-line ml-2 rounded-full text-white bg-slate-800"></i>
                                 </button>
                             </div>
                         </div>

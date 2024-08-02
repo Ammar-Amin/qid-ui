@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 function AppPage() {
+    useEffect(() => {
+        window.scroll({
+            top: 0,
+            left: 0,
+            behavior: 'instant'
+        })
+    }, [])
     return (
         <div className='mt-[110px]'>
             <div className='w-[90%] mx-auto flex flex-col md:flex-row md:justify-center lg:w-full'>

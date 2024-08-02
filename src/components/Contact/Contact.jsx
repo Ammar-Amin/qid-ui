@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 function Contact() {
     const [input, setInput] = useState({
@@ -26,6 +26,14 @@ function Contact() {
         })
     }
 
+    useEffect(() => {
+        window.scroll({
+            top: 0,
+            left: 0,
+            behavior: 'instant'
+        })
+    }, [])
+
     return (
         <div className='w-full min-h-screen pt-[110px] p-7 text-white bg-gray-950 border-b-[1px] border-slate-500 md:flex md:pt-40 md:pb-20 lg:px-16 lg:pt-[230px] lg:pb-32 xl:px-32'>
             {/* Section 1  */}
@@ -35,11 +43,11 @@ function Contact() {
                 {/* Contact details  */}
                 <div className='flex flex-col justify-center gap-2 md:text-lg'>
                     <p className='font-medium'>
-                        <i class="ri-mail-line text-xl mr-2"></i>
+                        <i className="ri-mail-line text-xl mr-2"></i>
                         contact@oneqid.com
                     </p>
                     <p className='font-bold'>
-                        <i class="ri-phone-fill text-xl mr-2"></i>
+                        <i className="ri-phone-fill text-xl mr-2"></i>
                         +91 960 640 640 4
                     </p>
                 </div>

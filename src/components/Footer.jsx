@@ -36,7 +36,7 @@ function Footer() {
             <div className='p-4 flex flex-col items-center gap-2 md:flex-row-reverse md:justify-between md:mx-[90px] lg:mx-[180px]'>
                 <span className='cursor-pointer'>
                     <Link target='_blank' to='https://www.linkedin.com/company/oneqid/'>
-                        <i class="ri-linkedin-box-fill text-blue-900 p-1 md:text-2xl rounded-full bg-white"></i>
+                        <i className="ri-linkedin-box-fill text-blue-900 p-1 md:text-2xl rounded-full bg-white"></i>
                     </Link>
                 </span>
                 <p className='text-white md:text-xl text-[13px]'>Oneqid Technologies Private Limited</p>
